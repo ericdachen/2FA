@@ -11,6 +11,7 @@ firebase
 function getRegister() {
   var mail = document.getElementById("email").value;
   var password = document.getElementById("pass").value;
-  signInWithEmailAndPassword(email, pass);
-  alert("email is " + mail + " and password is " + password);
+  alert(mail, password);
+  //   signInWithEmailAndPassword(email, pass);
+  console.log("you clicked the submit button");
 }
