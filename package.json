@@ -1,0 +1,19 @@
+{
+  "name": "2fa_google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericdachen/2FA_Google.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericdachen/2FA_Google/issues"
+  },
+  "homepage": "https://github.com/ericdachen/2FA_Google#readme"
+}
