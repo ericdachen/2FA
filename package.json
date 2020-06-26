@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ericdachen/2FA_Google/issues"
   },
-  "homepage": "https://github.com/ericdachen/2FA_Google#readme"
+  "homepage": "https://github.com/ericdachen/2FA_Google#readme",
+  "dependencies": {
+    "firebase": "^7.15.5",
+    "firebaseui": "^4.5.1"
+  }
 }

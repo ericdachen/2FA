@@ -54,7 +54,7 @@
           margin: 16px 0 24px;
           font-size: 14px;
         }
-        #message a {
+        #sub input {
           display: block;
           text-align: center;
           background: #039be5;
@@ -64,8 +64,8 @@
           padding: 16px;
           border-radius: 4px;
         }
-        #message,
-        #message a {
+        #sub,
+        #sub input {
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
             0 1px 2px rgba(0, 0, 0, 0.24);
         }
@@ -91,16 +91,16 @@
       <div id="message">
         <h2>Welcome</h2>
         <h1>Account Registration</h1>
-        <form id="form" onsubmit="return false;">
-          <label for="user">Username:</label><br />
-          <input type="text" id="user" name="Username" /><br />
+        <form id="form" onsubmit="handleSignUp()" method="POST">
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" /><br />
           <br />
           <label for="pass">Password:</label><br />
-          <input type="password" id="pass" name="password" />
+          <input type="password" id="password" name="password" />
           <br />
           <br />
           <br />
-          <a onclick="getRegister()">Register</a>
+            <input id="quickstart-sign-up" type="submit"></input>
         </form>
       </div>
       <p id="load">Firebase SDK Loading&hellip;</p>

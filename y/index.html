@@ -2,6 +2,12 @@
 <html>
   <html lang="en">
     <head>
+      <script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+      <link
+        type="text/css"
+        rel="stylesheet"
+        href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css"
+      />
       <meta charset="UTF-8" />
       <title>Firebase 2FA Prototype</title>
 
@@ -90,20 +96,19 @@
       <div id="message">
         <h2>Welcome</h2>
         <h1>Login</h1>
-        <form action="/my-handling-form-page" method="post">
+        <form action="/my-handling-form-page">
           <label for="email">Email:</label><br />
           <input type="email" id="email" name="user" /><br />
 
           <br />
           <label for="pass">Password:</label><br />
           <input type="password" id="pass" name="password" />
+          <input type='submit' id='sub'>Submit</a
+        >
         </form>
         <br />
         <a target="_blank" href="register.html">Register</a>
         <br />
-        <a target="_blank" href="https://firebase.google.com/docs/hosting/"
-          >Submit</a
-        >
       </div>
       <p id="load">Firebase SDK Loading&hellip;</p>
 
