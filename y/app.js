@@ -27,6 +27,7 @@ function toggleSignIn() {
   } else {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
+    window.location.replace("loggedin.html");
     if (email.length < 4) {
       alert("Please enter an email address.");
       return;
@@ -176,6 +177,7 @@ if (user) {
 
 firebase.auth().onAuthStateChanged(function (user) {
   if (user) {
+    console.log("signed in");
     // User is signed in.
     var displayName = user.displayName;
     var email = user.email;
@@ -186,6 +188,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     var providerData = user.providerData;
     // ...
   } else {
+    console.log("singed out");
     // User is signed out.
     // ...
   }

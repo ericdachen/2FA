@@ -18,6 +18,9 @@
   "homepage": "https://github.com/ericdachen/2FA_Google#readme",
   "dependencies": {
     "firebase": "^7.15.5",
-    "firebaseui": "^4.5.1"
+    "firebaseui": "^4.5.1",
+    "prompt": "^1.0.0",
+    "qrcode": "^1.4.4",
+    "speakeasy": "^2.0.0"
   }
 }
