@@ -22,8 +22,8 @@ console.log(token);
 // });
 
 var QRCode = require("qrcode");
-console.log(QRCode);
-console.log(secret.otpauth_url);
+//console.log(QRCode);
+//console.log(secret.otpauth_url);
 
 QRCode.toString(secret.otpauth_url, { type: "terminal" }, function (err, url) {
   console.log(url);
