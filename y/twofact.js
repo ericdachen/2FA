@@ -52,3 +52,5 @@ function verification(inputToken) {
 }
 
 // console.log(verified);
+
+//Front-end display png
