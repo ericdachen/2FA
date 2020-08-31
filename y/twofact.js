@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
+//
 var secret = speakeasy.generateSecret({ length: 30 });
 console.log(secret.base32); //using speakeasy generate one time token.
 
